@@ -1,0 +1,96 @@
+.bottom_baner {
+    width: 100%;
+    height: 134px;
+    margin: 50px 10%;
+}
+
+.bottom_info {
+    width: 90%;
+    height: 123px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.bottom_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sub_text {
+    font-size: 11px;
+}
+
+.bottom_button {
+    color: #26C296;
+    text-decoration: none;
+    border: 1px solid #26C296;
+    text-align: center;
+    position: top;
+    padding: 4 px;
+    border-radius: 150px;
+    height: 43px;
+    width: 18%;
+}
+
+.bottom_button:hover {
+    background: #26C296;
+    color: #ffffff;
+    border: 1px solid #26C296;
+}
+
+@media only screen and (min-width:1920px) and (max-width:2560px) {
+    .bottom_info {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .bottom_title {
+        font-size: 70px;
+    }
+    .sub_text {
+        font-size: 32px;
+    }
+    .bottom_button {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .bottom_title {
+        font-size: 32px;
+    }
+    .sub_text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .bottom_baner {
+        margin: 5px;
+    }
+    .bottom_info {
+        width: 100%;
+    }
+    .bottom_title {
+        font-size: 18px;
+    }
+    .bottom_button {
+        padding-top: 6px;
+        width: 24%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bottom_button {
+        padding-top: 2px;
+        width: 150px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {}

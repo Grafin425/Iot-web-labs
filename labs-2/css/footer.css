@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    margin-top: 4%;
+}
+
+@media only screen and(min-width:1920px) and (max-width:2560px) {
+    footer {
+        font-size: 32px;
+    }
+}

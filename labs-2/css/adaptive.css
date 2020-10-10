@@ -1,0 +1,29 @@
+ /* sections */
+ 
+ @import "./style.css";
+ @media only screen and (max-width:2560px) {
+     body {
+         font-size: 50px;
+     }
+ }
+ 
+ @media only screen and (max-width:1200px) {}
+ 
+ @media only screen and (max-width:992px) {}
+ 
+ @media only screen and (max-width:768px) {
+     #body {
+         font-size: 12px;
+     }
+     .intro {
+         display: block;
+         flex-direction: column;
+     }
+     .main_information {
+         width: 98%;
+     }
+ }
+ 
+ @media only screen and (max-width:480px) {}
+ 
+ @media only screen and (max-width: 320px) {}

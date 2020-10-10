@@ -1,0 +1,45 @@
+    body {
+        font-family: 'Saira Semi Condensed', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #222222;
+        background: #f7f7f7;
+        height: 100vh;
+        /* margin: 453.5px; */
+        margin-top: 20px;
+        width: 100wh;
+        border-radius: 7px;
+        justify-content: center;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    @media only screen and (min-width:1920px) and (max-width:2560px) {
+        body {
+            font-size: 32px;
+        }
+    }
+    
+    @media only screen and (min-width:1440px) and (max-width:1920px) {
+        body {
+            font-size: 24px;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) {}
+    
+    @media only screen and (max-width: 992px) {}
+    
+    @media only screen and (max-width: 768px) {}
+    
+    @media only screen and (max-width: 480px) {}
+    
+    @media only screen and (max-width: 320px) {}
