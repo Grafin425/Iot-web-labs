@@ -1,21 +1,4 @@
-header {
-    padding-top: 20px;
-}
-
-.nav_link {
-    height: 0px;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: 500;
-    color: #ffffff;
-}
-
-.nav_link:hover {
-    border-radius: 50px;
-    background-color: rgb(177, 177, 177);
-}
-
-.create_car {
+.edit_car {
     border-radius: 50px;
     background-color: rgb(177, 177, 177);
 }
