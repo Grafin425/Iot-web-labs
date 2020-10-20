@@ -17,6 +17,8 @@
                     <a class="nav_link" href=""> Car Showroom</a>
                     <a class="nav_link cars" href="">Cars</a>
                     <a class="nav_link" href=".//create.html">Create Car</a>
+
+                    <input type="text" placeholder="Search..." id="carsSearch">
                 </nav>
             </div>
         </div>
@@ -36,12 +38,15 @@
                 <div class="slider_text">
                     <div class="block_price">
                         <div class="sort">
-                            <label class="label_sort" for="type">Price:</label>
-                            <select class="select_sort" id="price" name="price">
+                            <!-- <label class="label_sort" for="type">Price:</label> -->
+                            <div class="sort">
+                                <button class="highest_first">highest first</button>
+                                <button class="lowest_first">lowest first</button></div>
+                            <!-- <select class="select_sort" id="price" name="price">
                             <option >highest first</option>
                             <option >lowest first</option>
 
-                                </select>
+                                </select> -->
                         </div>
                         <div class="title_price">Price</div>
                         <div class="input_price">
@@ -73,7 +78,7 @@
 
 
             <div class="card_pole">
-                <div class="cars_card">
+                <div class="cars_card" price-sort="18000">
                     <div class="front_card">
                         <div class="card_image">
                             <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
@@ -100,42 +105,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="cars_card">
+                <div class="cars_card" price-sort="26000">
                     <div class="front_card">
                         <div class="card_image">
                             <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
                         </div>
                         <div class="card_information">
-                            <div class="card_information__title">BMW M5 Competition</div>
-                            <div class="card_information__price">18.000$</div>
-                            <div class="card_information__type">Sedan</div>
-                            <div class="card_informatio__car">
-                                <div class="card_information__brand">BMW</div>
-                                <div class="card_information__model">M5</div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="back_card">
-                        <div class="back_information">
-                            <div class="card_information_description"> Description</div>
-                            <textarea disabled class="information_textarea" form="usrform">Now with a compelling Representative 2.9% APR.BMW (UK) Ltd is a credit broker not a lender. Ts&Cs apply. 
-                        </textarea>
-                            <div class="card_button">
-                                <button onclick="window.location.href='edit.html'" class=" card_button__edit ">Edit</button>
-                                <button class="card_button__remove ">Remove</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cars_card">
-                    <div class="front_card">
-                        <div class="card_image">
-                            <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
-                        </div>
-                        <div class="card_information">
-                            <div class="card_information__title">BMW M5 Competition</div>
-                            <div class="card_information__price">18.000$</div>
+                            <div class="card_information__title">BMW X1 Competition</div>
+                            <div class="card_information__price">26.000$</div>
                             <div class="card_information__type">Sedan</div>
                             <div class="card_informatio__car">
                                 <div class="card_information__brand">BMW</div>
@@ -156,14 +133,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="cars_card">
+                <div class="cars_card" price-sort="23000">
                     <div class="front_card">
                         <div class="card_image">
                             <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
                         </div>
                         <div class="card_information">
-                            <div class="card_information__title">BMW M5 Competition</div>
-                            <div class="card_information__price">18.000$</div>
+                            <div class="card_information__title">BMW X4</div>
+                            <div class="card_information__price">23.000$</div>
                             <div class="card_information__type">Sedan</div>
                             <div class="card_informatio__car">
                                 <div class="card_information__brand">BMW</div>
@@ -184,14 +161,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="cars_card">
+                <div class="cars_card" price-sort="21000">
                     <div class="front_card">
                         <div class="card_image">
                             <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
                         </div>
                         <div class="card_information">
-                            <div class="card_information__title">BMW M5 Competition</div>
-                            <div class="card_information__price">18.000$</div>
+                            <div class="card_information__title">Mercedes-AMG C 43</div>
+                            <div class="card_information__price">21.000$</div>
                             <div class="card_information__type">Sedan</div>
                             <div class="card_informatio__car">
                                 <div class="card_information__brand">BMW</div>
@@ -212,14 +189,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="cars_card">
+                <div class="cars_card" price-sort="25000">
+                    <div class="front_card">
+                        <div class="card_image">
+                            <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
+                        </div>
+                        <div class="card_information">
+                            <div class="card_information__title">Mercedes-AMG GLC 63</div>
+                            <div class="card_information__price">25.000$</div>
+                            <div class="card_information__type">Sedan</div>
+                            <div class="card_informatio__car">
+                                <div class="card_information__brand">BMW</div>
+                                <div class="card_information__model">M5</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="back_card">
+                        <div class="back_information">
+                            <div class="card_information_description"> Description</div>
+                            <textarea disabled class="information_textarea" form="usrform">Now with a compelling Representative 2.9% APR.BMW (UK) Ltd is a credit broker not a lender. Ts&Cs apply. 
+                        </textarea>
+                            <div class="card_button">
+                                <button onclick="window.location.href='edit.html'" class=" card_button__edit ">Edit</button>
+                                <button class="card_button__remove ">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cars_card" price-sort="17500">
                     <div class="front_card">
                         <div class="card_image">
                             <img class="card_image__poligon" src="img/news-1005181.jpg" alt="">
                         </div>
                         <div class="card_information">
                             <div class="card_information__title">BMW M5 Competition</div>
-                            <div class="card_information__price">18.000$</div>
+                            <div class="card_information__price">17.500$</div>
                             <div class="card_information__type">Sedan</div>
                             <div class="card_informatio__car">
                                 <div class="card_information__brand">BMW</div>
@@ -247,6 +252,10 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/SortType.js"></script>
+    <script src="script/Search.js"></script>
+
+
 </body>
 
 </html>
