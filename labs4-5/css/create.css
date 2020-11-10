@@ -1,0 +1,195 @@
+header {
+    padding-top: 20px;
+}
+
+.nav_link {
+    height: 0px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.nav_link:hover {
+    border-radius: 50px;
+    background-color: rgb(177, 177, 177);
+}
+
+.create_car {
+    border-radius: 50px;
+    background-color: rgb(177, 177, 177);
+}
+
+
+/* hero  image */
+
+.hero {
+    margin-top: 60px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    min-height: 900px;
+    display: block;
+    justify-content: center;
+}
+
+.hero_create {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.hero_image {
+    width: 300px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.add_image {
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: #000000;
+    background: none;
+    font-weight: 400;
+    outline: none;
+    border-style: none;
+}
+
+.add_image:hover {
+    color: #fff;
+    border-radius: 50px;
+    background-color: #000000;
+}
+
+.image {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+
+/* hero information */
+
+.hero_information {
+    /*width: 400px;*/
+    display: block;
+    flex-direction: column;
+}
+
+.select_cars {
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(231, 231, 231);
+    color: #000000;
+    outline: none;
+    border-style: none;
+    resize: none;
+    padding: 10px;
+}
+
+.select_cars:hover {
+    border: 3px solid #000000;
+}
+
+.select_cars:focus {
+    border: 3px solid #000000;
+}
+
+.input_textarea {
+    width: 384px;
+    border-radius: 30px;
+    background-color: rgb(231, 231, 231);
+    color: #000000;
+    outline: none;
+    border-style: none;
+    resize: none;
+    height: 100px;
+    padding: 10px;
+}
+
+.input_textarea:hover {
+    border: 3px solid #000000;
+    transform: translateX(20px);
+    transition-duration: 0.7s;
+    width: 380px;
+}
+
+.input_textarea:focus {
+    border: 3px solid #000000;
+    transform: translateX(20px);
+    width: 380px;
+}
+
+.input_create {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(231, 231, 231);
+    color: #000000;
+    outline: none;
+    border-style: none;
+}
+
+.input_create:hover {
+    border: 3px solid #000000;
+    transform: translateX(20px);
+    transition-duration: 0.7s;
+    width: 380px;
+}
+
+.input_create:focus {
+    border: 3px solid #000000;
+    transform: translateX(20px);
+    width: 380px;
+}
+
+.label_car {
+    font-weight: 500;
+    font-size: 24spx;
+    text-align: center;
+}
+
+.input_form {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.but {
+    margin-left: 160px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*margin-top: 50px;*/
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+}
+
+button {
+    outline: none;
+    border-style: none;
+}
+
+.but:hover {
+    border: 3px solid #000000;
+    transform: scaleX(1.1);
+    transition-duration: 0.7s;
+}
+
+.but:focus {
+    transform: scaleX(1.1);
+    border: 3px solid #000000;
+}

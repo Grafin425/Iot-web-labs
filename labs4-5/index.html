@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Car Shop</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="header_inner">
+                <nav class="header_nav">
+                    <a class="nav_link" href=""> Car Showroom</a>
+                    <a class="nav_link cars" href="">Cars</a>
+                    <a class="nav_link" href="create.html">Create Car</a>
+
+                    <input type="text" placeholder="Search..." id="cars_search">
+                    <button id="find_button">Find</button>
+                    <button id="cancel_find_button">cancel</button>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner_car">
+        <div class="hero_card">
+            <div class="slider_menu">
+                <div class="header_burger">
+                    <span></span>
+
+
+                </div>
+
+                <div class="slider_text">
+                    <div class="block_price">
+                        <div class="sort">
+                            <div class="sort">
+                                <button id="highest_first" class="highest_first">highest first</button>
+                                <button id="lowest_first" class="lowest_first">lowest first</button></div>
+                        </div>
+                        <div class="title_price">Price</div>
+                        <div class="input_price">
+                            <input placeholder="from" class="order_input" type="text">
+                            <input placeholder="to" class="order_input" type="text">
+
+                        </div>
+                        <button class="accept">
+                            accept
+                        </button>
+                        <p> <br></p>
+
+                        <hr>
+                        <div class="total_price">
+                            Total price
+                        </div>
+                        <div id="total_price_output" class="total_price_output"></div>
+                        <div class="total_price">
+                            Number of cars
+                        </div>
+                        <div id="total_price_output2" class="total_price_output"></div>
+                        <button id="calculate" class="calculate">calculate</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <ul id="itemContainer" class="card_pole">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
